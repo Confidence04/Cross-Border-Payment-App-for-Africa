@@ -503,3 +503,6 @@ MIT
 
 <!-- handsoff-issue-1130 -->
 - #1130: [SC-125] dispute-resolution: panel quorum is computed against the *current* panel size, so adding/removing arbitrators mid-dispute changes outcomes
+
+<!-- handsoff-issue-1203 -->
+- #1203: [FE-115] Contract-address (C…) simulation in Send Money calls `/payments/build` and `/contracts/simulate`, which don't exist — and the branch is unreachable
