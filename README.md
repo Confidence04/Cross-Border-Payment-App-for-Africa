@@ -509,3 +509,6 @@ MIT
 
 <!-- handsoff-issue-1204 -->
 - #1204: [FE-116] Online payments are sent without an `Idempotency-Key`, so retrying after a timeout can send money twice
+
+<!-- handsoff-issue-1205 -->
+- #1205: [FE-117] Federation addresses (`name*domain`) are resolved only after PIN confirmation — the user never sees the G-address they're paying
