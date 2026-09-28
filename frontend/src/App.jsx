@@ -24,6 +24,7 @@ import Webhooks from "./pages/Webhooks";
 import Referrals from "./pages/Referrals";
 import Sessions from "./pages/Sessions";
 import Escrow from "./pages/Escrow";
+import NotFound from "./pages/NotFound";
 import Layout from "./components/Layout";
 import ErrorBoundary from "./components/ErrorBoundary";
 import UpdateBanner from "./components/UpdateBanner";
@@ -169,6 +170,7 @@ function AppRoutes() {
             }
           />
         </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </ErrorBoundary>
   );
