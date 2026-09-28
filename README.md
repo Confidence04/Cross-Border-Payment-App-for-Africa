@@ -509,3 +509,7 @@ MIT
 
 <!-- handsoff-issue-1193 -->
 - #1193: [FE-105] 2FA setup shows backup codes that don't work; the real codes returned by `/2fa/verify` are discarded
+<!-- handsoff-issue-1202 -->
+- #1202: [FE-114] Send Money's trustline pre-check calls a non-existent endpoint and silently hides the "no trustline" warning
+<!-- handsoff-issue-1140 -->
+- #1140: [SC-135] loyalty-token: `redeem` burns points but records no entitlement or event, so the backend cannot verify a discount was paid for
