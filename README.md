@@ -506,3 +506,6 @@ MIT
 
 <!-- handsoff-issue-1203 -->
 - #1203: [FE-115] Contract-address (C…) simulation in Send Money calls `/payments/build` and `/contracts/simulate`, which don't exist — and the branch is unreachable
+
+<!-- handsoff-issue-1204 -->
+- #1204: [FE-116] Online payments are sent without an `Idempotency-Key`, so retrying after a timeout can send money twice
