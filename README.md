@@ -503,3 +503,6 @@ MIT
 
 <!-- handsoff-issue-1130 -->
 - #1130: [SC-125] dispute-resolution: panel quorum is computed against the *current* panel size, so adding/removing arbitrators mid-dispute changes outcomes
+
+<!-- handsoff-issue-1192 -->
+- #1192: [FE-104] "Back up secret key" in Profile always fails: it sends only the password, but the backend requires a PIN or TOTP
