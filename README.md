@@ -506,3 +506,6 @@ MIT
 
 <!-- handsoff-issue-1192 -->
 - #1192: [FE-104] "Back up secret key" in Profile always fails: it sends only the password, but the backend requires a PIN or TOTP
+
+<!-- handsoff-issue-1193 -->
+- #1193: [FE-105] 2FA setup shows backup codes that don't work; the real codes returned by `/2fa/verify` are discarded
